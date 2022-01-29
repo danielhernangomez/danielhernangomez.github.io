@@ -50,6 +50,12 @@ ul li {
 	padding-bottom: 10px;
 	}
 
+br {
+    display: block;
+    content: " ";
+    margin-bottom: 0.15em;
+    }
+
 header, section, footer, aside, article, figure {
 	display: block;
 	}
@@ -154,7 +160,13 @@ footer a:visited {
 	border: 2px solid #3C3C3C;
 	}
 
+/* Footer, legal notice*/
+
 .legal {
 	float:right;
 	}
 
+.inline-icon {
+    height: 1em;
+    vertical-align: middle;
+    }
