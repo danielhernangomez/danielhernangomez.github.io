@@ -40,8 +40,14 @@
         <small>
             Last modified:
         <script>
-            document.write(document.lastModified);
-	</script>
+            var x = new Date(document.lastModified);
+            day = x.getDate();
+            month = x.getMonth() + 1;
+            year = x.getFullYear();
+            if (day < 10) {day = "0" + day};
+            if (month < 10) {month = "0" + month};
+            document.write(day + "/" + month + "/" + year);
+		</script>
 	<span class="legal">
             <a href="LICENSE.txt" target="_blank">Legal Notice</a> 
         </span>

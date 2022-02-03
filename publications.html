@@ -68,12 +68,22 @@
         <p>
             &#8727; = equally contributing authors
         </p>
+        <h2>Referee activities</h2>
+        <p>
+        I have acted as referee for the following journals: Phys. Rev. A, Phys. Rev. B, Phys. Rev. Lett., Phys. Rev. Mat., Phys. Chem. Chem. Phys. (total: &asymp; 25)
+        </p>
 	</div>    
         <footer>
         <small>
             Last modified: 
         <script>
-            document.write(document.lastModified);
+            var x = new Date(document.lastModified);
+            day = x.getDate();
+            month = x.getMonth() + 1;
+            year = x.getFullYear();
+            if (day < 10) {day = "0" + day};
+            if (month < 10) {month = "0" + month};
+            document.write(day + "/" + month + "/" + year);
 	    </script>
 	<span class="legal">
             <a href="LICENSE.txt" target="_blank">Legal Notice</a> 
