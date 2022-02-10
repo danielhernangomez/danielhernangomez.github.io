@@ -53,8 +53,13 @@ ul li {
 br {
     display: block;
     content: " ";
-    margin-bottom: 0.15em;
+    margin-bottom: 0.2em;
     }
+
+sub {
+    line-height: 0;
+}
+
 
 header, section, footer, aside, article, figure {
 	display: block;
@@ -167,6 +172,6 @@ footer a:visited {
 	}
 
 .inline-icon {
-    height: 1em;
-    vertical-align: middle;
+    height: 1.15em;
+    vertical-align: top;
     }
