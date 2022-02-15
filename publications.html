@@ -24,6 +24,16 @@
         		</ul>
 		</nav>
 	</header>
+    <script>
+		function showFunction(s) {
+    	var x = document.getElementById(s);
+    	if (x.style.display == 'none') {
+        	x.style.display = 'block';
+    		} else {
+        	x.style.display = 'none';
+    		}
+		}
+	</script>
 	<div id="content">
 	<h1>Daniel Hernang&oacute;mez P&eacute;rez</h1>
         <h2>Relevant Publications</h2>
@@ -43,7 +53,7 @@
         Science <b>373</b>, 452 (2021).
         <br>
         <!-- -->
-        <font size="-1"> Abstract | BibTeX | <a href="https://science.sciencemag.org/content/373/6553/452" target="_blank">Link</a> | featured in <a href="https://phys.org/news    /2021-07-microscope-reveals-miracle-molecular-oxygen.html" target="_blank">Phys.org</a></font>
+        <font size="-1"> Abstract | BibTeX | <a href="https://science.sciencemag.org/content/373/6553/452" target="_blank">Link</a> | featured in: <a href="https://phys.org/news/2021-07-microscope-reveals-miracle-molecular-oxygen.html" target="_blank">Phys.org</a>, <a href="https://www.chemistryworld.com/news/observing-the-life-and-death-of-a-single-excited-state-molecule/4014069.article" target="_blank">Chemistry World</a>, <a href="https://science.sciencemag.org/content/373/6553/392" target="_blank">Science News</a></font>
         <!-- -->
         </li>
         <li>
@@ -162,7 +172,34 @@
         Phys. Rev. B <b>89</b>, 155314 (2014).
         <br>
         <!-- -->
-        <font size="-1"> Abstract | BibTeX | <a href="downloads/papers/2014/p2.pdf" target="_blank">Download</a></font>
+        <font size="-1"> 
+            <button onclick="showFunction('p2-abs')" class="show-button">Abstract</button> | 
+            <button onclick="showFunction('p2-bib')" class="show-button">BibTeX</button> |
+            <a href="downloads/papers/2014/p2.pdf" target="_blank">Download</a>
+        <div id="p2-abs" style="display:none">
+        	<p class="abstract">
+			We study the local equilibrium properties of two-dimensional electron gases at high magnetic fields in the presence of random smooth electrostatic disorder, Rashba spin-orbit coupling, and the Zeeman interaction. Using a systematic magnetic length (l<sub>B</sub>) expansion within a Green's function framework we derive quantum functionals for the local spin-resolved particle and current densities which can be useful for future studies combining disorder and mean-field electron-electron interaction in the quantum Hall regime. We point out that the spin polarization presents a peculiar spatial dependence which can be used to determine the strength of the Rashba coupling by local probes. The spatial structure of the current density, consisting of both compressible and incompressible contributions, also essentially reflects the effects of Rashba spin-orbit interaction on the energy spectrum. We show that in the semiclassical limit l<sub>B</sub>&#8594;0 the local Hall conductivity remains, however, still quantized in units of e<sup>2</sup>/h for any finite strength of the spin-orbit interaction. In contrast, it becomes half-integer quantized when the latter is infinite, a situation which corresponds to a disordered topological insulator surface consisting of a single Dirac cone. Finally, we argue how to define at high magnetic fields a spin Hall conductivity related to a dissipationless angular momentum flow, which is characterized by a sequence of plateaus as a function of the inverse magnetic field (thus free of resonances).
+			</p>
+    	</div>
+    	<div id="p2-bib" style="display:none">
+        	<p>
+			@article{PhysRevB.89.155314,
+  			title = {Signatures of Rashba spin-orbit interaction in charge and spin properties of quantum Hall systems},<br>
+  			author = {Hernang\'omez-P\'erez, Daniel and Florens, Serge and Champel, Thierry},<br>
+  			journal = {Phys. Rev. B},<br>
+  			volume = {89},<br>
+  			issue = {15},<br>
+  			pages = {155314},<br>
+  			numpages = {16},<br>
+  			year = {2014},<br>
+  			month = {Apr},<br>
+  			publisher = {American Physical Society},<br>
+  			doi = {10.1103/PhysRevB.89.155314},<br>
+  			url = {https://link.aps.org/doi/10.1103/PhysRevB.89.155314}<br>
+			}
+			<p>
+		</div>
+        </font>
         <!-- -->
 		</li>
         <li> 
@@ -171,13 +208,39 @@
          Phys. Rev. B <b>88</b>, 245433 (2013). 
          <br>
         <!-- -->
-        <font size="-1"> Abstract | BibTeX | <a href="downloads/papers/2013/p1.pdf" target="_blank">Download</a></font>
+        <font size="-1"> 
+            <button onclick="showFunction('p1-abs')" class="show-button">Abstract</button> | 
+            <button onclick="showFunction('p1-bib')" class="show-button">BibTeX</button> |
+            <a href="downloads/papers/2013/p1.pdf" target="_blank">Download</a>
+        <div id="p1-abs" style="display:none">
+        <p class="abstract">
+        We theoretically investigate the spectral properties and the spatial dependence of the local density of states (LDOS) in disordered two-dimensional electron gases (2DEG) in the quantum Hall regime, taking into account the combined presence of electrostatic disorder, random Rashba spin-orbit interaction, and finite Zeeman coupling. To this purpose, we extend a coherent-state Green's function formalism previously proposed for spinless 2DEG in the presence of smooth arbitrary disorder, that here incorporates the nontrivial coupling between the orbital and spin degrees of freedom into the electronic drift states. The formalism allows us to obtain analytical and controlled nonperturbative expressions of the energy spectrum in arbitrary locally flat disorder potentials with both random electric fields and Rashba coupling. As an illustration of this theory, we derive analytical microscopic expressions for the LDOS in different temperature regimes which can be used as a starting point to interpret scanning tunneling spectroscopy data at high magnetic fields. In this context, we study the spatial dependence and linewidth of the LDOS peaks and explain an experimentally noticed correlation between the spatial dispersion of the spin-orbit splitting and the local extrema of the potential landscape.
+        </p>
+    </div>
+    <div id="p1-bib" style="display:none">
+        <p>
+        @article{PhysRevB.88.245433,<br>
+        title = {Spectral properties and local density of states of disordered
+        quantum Hall systems with Rashba spin-orbit coupling},<br>
+        author = {Hernang\'omez-P\'erez, Daniel and Ulrich, Jascha and Florens,
+        Serge and Champel, Thierry},<br>
+        journal = {Phys. Rev. B},<br>
+        volume = {88},<br>
+        issue = {24},<br>
+        pages = {245433},<br>
+        numpages = {16},<br>
+        year = {2013},<br>
+        month = {Dec},<br>
+        publisher = {American Physical Society},<br>
+        doi = {10.1103/PhysRevB.88.245433},<br>
+        url = {https://link.aps.org/doi/10.1103/PhysRevB.88.245433}<br>
+        }
+        </p>
+    </div>
+    </font>
         <!-- -->
 		</li>
         </ol>
-        <!--p>
-            &#8727; = equally contributing authors
-        </p-->
         <h2>Referee activities</h2>
         <p>
         I have acted as referee for the following journals: Phys. Rev. A, Phys. Rev. B, Phys. Rev. Lett., Phys. Rev. Mat., Phys. Chem. Chem. Phys. (total: &asymp; 25).

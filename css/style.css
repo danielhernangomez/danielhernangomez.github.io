@@ -4,11 +4,11 @@ a:link {
     	text-decoration: none;
        	color: rgb(0,0,153);
 	}
-/*
+
 a:visited {
-        color: rgb(128,0,128);
+        color: rgb(0,0,153);
         }
-*/	
+	
 a:hover {
 	color: rgb(128,0,128);	
 	}
@@ -57,6 +57,10 @@ br {
     }
 
 sub {
+    line-height: 0;
+}
+
+sup {
     line-height: 0;
 }
 
@@ -168,10 +172,30 @@ footer a:visited {
 /* Footer, legal notice*/
 
 .legal {
-	float:right;
+	float: right;
 	}
 
 .inline-icon {
     height: 1.15em;
     vertical-align: top;
     }
+
+.show-button {
+    font-family: "Raleway", Geneva, Verdana;
+    text-decoration: none;
+    padding: 0;
+    border: none;
+    background: none;
+    color: rgb(0,0,153);
+    cursor: pointer;
+    }
+
+.abstract {
+    width: 50%;
+    text-align: justify;
+    }
+
+button:hover{
+	color: rgb(128,0,128);	
+}
+
