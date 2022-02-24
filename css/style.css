@@ -169,16 +169,20 @@ footer a:visited {
 	border: 2px solid #3C3C3C;
 	}
 
-/* Footer, legal notice*/
+/* Footer, legal notice */
 
 .legal {
 	float: right;
 	}
 
+/* Inline icon position in line */    
+
 .inline-icon {
     height: 1.15em;
     vertical-align: top;
     }
+
+/* Style for button in publication list, shows abstract and bibTeX on-click */
 
 .show-button {
     font-family: "Raleway", Geneva, Verdana;
@@ -191,11 +195,31 @@ footer a:visited {
     }
 
 .abstract {
-    width: 50%;
+    width: 600px;
     text-align: justify;
     }
 
 button:hover{
 	color: rgb(128,0,128);	
-}
+    }
 
+/* Mobile media css style, super-simple restyling */
+
+@media only screen and (max-width: 768px) {
+
+    .abstract {
+        width: 95%;
+        text-align: justify;
+        }
+
+    .column1of2 {
+	    float: left;
+	    width: 100%;
+	    }
+
+    .column2of2 {
+        float: right;
+	    width: 100%;
+	    }
+
+}
