@@ -2,34 +2,34 @@
 
 a:link {
     	text-decoration: none;
-       	color: rgb(0,0,153);
+       	color: #286FB4;  /*old rgb(0,0,153) */
 	}
 
 a:visited {
-        color: rgb(0,0,153);
+        color: #286FB4; /*old rgb(0,0,153) */
         }
 	
 a:hover {
-	color: rgb(128,0,128);	
+	color: #DF4C73;	/*old rgb(128,0,128) */
 	}
 
 body { 
 	font-family: "Raleway", Geneva, Verdana, Arial; 	/* Add font here if using Google Fonts */ 
-	background-color: rgb(255,255,255);
+	background-color: #FFFFFF; /* old: #EFEFEF */
 	padding: 16px;
 	}
 
 h1 {
-	background-color: #3C3C3C; 
+	background-color: #B0DDE4; /* old: #3C3C3C */ 
 	padding: 10px;
-	color: rgb(255,255,255);
+	color: rgb(0, 0, 0); /* old: rgb(255, 255, 255) */
 	border-radius: 5px;
 	}
 
 h2 {
-	background-color: #3C3C3C; 
+	background-color: #B0DDE4; /* old: #3C3C3C */ 
 	padding: 10px;
-	color: rgb(255,255,255);
+	color: rgb(0, 0, 0); /* old: rgb(255, 255, 255) */
 	border-radius: 5px;
 	}
 
@@ -77,7 +77,7 @@ header, section, footer, aside, article, figure {
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
-	background-color: #3C3C3C;
+	background-color: #B0DDE4; /* old #3C3C3C */
      	}
 
 .nav ul li {
@@ -88,25 +88,25 @@ header, section, footer, aside, article, figure {
 
 .nav li a {
 	display: block;
-	color: white;
+	color: black;  /* old white */
 	padding: 10px 16px;
 	text-align: center;	
 	}
 
 .nav li a:link {
-	color: white;		/* Change default link color to white */
+	color: black;		/* Change default link color to black */
 	}
 
 .nav li a:visited {
-	color: white;		/* Change default link color to white */  
+	color: black;		/* Change default link color to black */  
 	}
 
 .nav li a:hover {
-        background-color: #111;
+        background-color: #286FB4; /* old 111 */
         }
 
 .active {
-        background-color: rgb(0,0,153);
+        background-color: #286FB4; /* old rgb(0, 0, 153) */
         } 
 
 /* End Navigation bar */
@@ -122,8 +122,8 @@ header {
         } 
 
 footer {
-	background-color: #3C3C3C;
-	color: white;
+	background-color: #B0DDE4; /* old #3C3C3C */
+	color: black;  /* old: white */
 	left: 0;
 	bottom: 0;
 	padding: 0px 20px 0px 10px;
@@ -133,11 +133,11 @@ footer {
 	}
 
 footer a:link {
-	color: white;
+	color: black; /* old: white */
 	}
 
 footer a:visited {
-	color: white;
+	color: black; /* old: white */
 	}
 
 #content {
@@ -166,7 +166,7 @@ footer a:visited {
 .photo {
 	width: 75%;
 	padding: 1px;
-	border: 2px solid #3C3C3C;
+	border: 2px solid #286FB4;
 	}
 
 /* Footer, legal notice */
@@ -190,7 +190,7 @@ footer a:visited {
     padding: 0;
     border: none;
     background: none;
-    color: rgb(0,0,153);
+    color: #286FB4; /* old rgb(0,0,153) */
     cursor: pointer;
     }
 
@@ -200,7 +200,7 @@ footer a:visited {
     }
 
 button:hover{
-	color: rgb(128,0,128);	
+	color: #DF4C73; /* old rgb(128,0,128) */	
     }
 
 /* Mobile media css style, super-simple restyling */
