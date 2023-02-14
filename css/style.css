@@ -223,3 +223,10 @@ button:hover{
 	    }
 
 }
+
+/* Divide container in two columns */
+
+.nested-column {
+    width: 30%;
+    float: left;
+}
