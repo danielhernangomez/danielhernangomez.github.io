@@ -224,6 +224,28 @@ button:hover{
 
 }
 
+/* Mobile media csss style, navigation bar */
+@media only screen and (max-width: 600px) {
+
+    .nav ul {
+        display: none;
+        }
+
+    .nav .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    nav.ul.show {
+        
+    }   
+}
+
+
 /* Divide container in two columns */
 
 .nested-column {
