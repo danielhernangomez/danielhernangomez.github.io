@@ -203,6 +203,12 @@ button:hover{
 	color: #DF4C73; /* old rgb(128,0,128) */	
     }
 
+/* Style for text in the news section */
+ul.news li {
+    width: 75%;
+    text-align: justify;
+    }
+
 /* Mobile media css style, super-simple restyling */
 
 @media only screen and (max-width: 768px) {
