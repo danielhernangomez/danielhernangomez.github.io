@@ -64,7 +64,6 @@ sup {
     line-height: 0;
 }
 
-
 header, section, footer, aside, article, figure {
 	display: block;
 	}
@@ -205,8 +204,11 @@ button:hover{
 
 /* Style for text in the news section */
 ul.news li {
-    width: 75%;
+    width: 80%;
     text-align: justify;
+    line-height: 1.35;         /* spacing inside wrapped lines */
+    padding-bottom: 0px;        /* override global */
+    margin-bottom: 10px;       /* control separation between items */
     }
 
 /* Mobile media css style, super-simple restyling */
