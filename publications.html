@@ -119,12 +119,36 @@
 			    <br>
 			    R. Pasquier, M. Camarasa-G&oacute;mez, A.-S. Hehn, <u>D. Hernang&oacute;mez-P&eacute;rez</u>, and J. Wilhelm
 			    <br>
-			    Phys. Rev. B (<i>accepted</i>). Editors' Suggestion.
+                Phys. Rev. B <b>112</b>, 205130 (2025). Editors' Suggestion.
 				<br>
 			    <font size="-1">
-			    Abstract | BibTeX |  
-                <a href="https://arxiv.org/abs/2507.18411" target="_blank">Link</a> | 
-                <a href="downloads/papers/2025/p30_arXiv.pdf" target="_blank">Download</a>  
+			    <button onclick="showFunction('p26-abs')" class="show-button">Abstract</button> |  
+			    <button onclick="showFunction('p26-bib')" class="show-button">BibTeX</button> |
+                <a href="https://journals.aps.org/prb/abstract/10.1103/v4zv-1pf9" target="_blank">Link</a> | 
+                <a href="downloads/papers/2025/p26.pdf" target="_blank">Download</a>  
+				<div id="p26-abs" style="display:none">
+	                <p class="abstract">
+					We present a GW space-time algorithm for periodic systems in a Gaussian basis including spin-orbit coupling. We employ lattice summation to compute the irreducible density response and the self-energy, while we employ k-point sampling for computing the screened Coulomb interaction. Our algorithm enables accurate and computationally efficient quasiparticle band structure calculations for atomically thin transition-metal dichalcogenides. For monolayer MoS<sub>2</sub>, MoSe<sub>2</sub>, WS<sub>2</sub>, and WSe<sub>2</sub>, computed GW band gaps agree on average within 50 meV with plane-wave-based reference calculations. G<sub>0</sub>W<sub>0</sub> band structures are obtained in less than two days on a laptop (Intel i5, 192 GB RAM) or in less than 30 minutes using 1024 cores. Overall, our work provides an efficient and scalable framework for GW calculations on atomically thin materials.
+                    </p>
+                </div>
+		        <div id="p26-bib" style="display:none">
+                    <p>
+                    @article{v4zv-1pf9,<br>
+                      title = {Efficient $GW$ band structure calculations using Gaussian basis functions and application to atomically thin transition-metal dichalcogenides},<br>
+                      author = {Pasquier, R\'emi and Camarasa-G\'omez, Mar\'{\i}a and Hehn, Anna-Sophia and Hernang\'omez-P\'erez, Daniel and Wilhelm, Jan},<br>
+                      journal = {Phys. Rev. B}, <br>
+                      volume = {112},<br>
+                      issue = {20},<br>
+                      pages = {205130},<br>
+                      numpages = {26},<br>
+                      year = {2025},<br>
+                      month = {Nov},<br>
+                      publisher = {American Physical Society},<br>
+                      doi = {10.1103/v4zv-1pf9},<br>
+                      url = {https://link.aps.org/doi/10.1103/v4zv-1pf9}<br>
+}
+                    </p>
+                </div>	
 			    </font>
 		    </li>
         	<!-- -->
@@ -292,7 +316,14 @@
                 <a href="downloads/papers/2024/p21_SI.pdf" target="_blank">Download SI</a> 
 				<div id="p21-abs" style="display:none">
 	                <p class="abstract">
-				The GW method is widely used for calculating the electronic band structure of materials. The high computational cost of GW algorithms prohibits their application to many systems of interest. We present a periodic, low-scaling and highly efficient GW algorithm that benefits from the locality of the Gaussian basis and the polarizability. The algorithm enables G<sub>0</sub>W<sub>0</sub> calculations on a MoSe<sub>2</sub>/WS<sub>2</sub> bilayer with 984 atoms per unit cell, in 42 hours using 1536 cores. This is four orders of magnitude faster than a plane-wave G<sub>0</sub>W<sub>0</sub> algorithm, allowing for unprecedented computational studies of electronic excitations at the nanoscale.
+				The GW method is widely used for calculating the electronic band structure of materials. 
+                The high computational cost of GW algorithms prohibits their application to many systems of interest. 
+                We present a periodic, low-scaling and highly efficient GW algorithm that benefits from the 
+                locality of the Gaussian basis and the polarizability. 
+                The algorithm enables G<sub>0</sub>W<sub>0</sub> calculations on a MoSe<sub>2</sub>/WS<sub>2</sub> 
+                bilayer with 984 atoms per unit cell, in 42 hours using 1536 cores. 
+                This is four orders of magnitude faster than a plane-wave G<sub>0</sub>W<sub>0</sub> algorithm, 
+                allowing for unprecedented computational studies of electronic excitations at the nanoscale.
                     </p>
                  </div>    
 		        <div id="p21-bib" style="display:none">
