@@ -1,17 +1,25 @@
-Website Legal Notice
+Legal Notice
 
-Unless otherwise noted, the content and design of this website 
-are Copyright (c) 2021–2025, Daniel Hernangómez Pérez. All rights reserved.
+Copyright & intellectual property.
+
+Unless otherwise noted, the textual content, design, and multimedia of this 
+website are Copyright (c) 2021–2026, Daniel Hernangómez Pérez. All rights reserved.
+
+Third-party materials. 
 
 Published papers and other third-party materials linked or hosted on this 
-site are copyright of their respective publishers and are used here in 
-accordance with their distribution policies.
+site remain the copyright of their respective publishers. These materials are shared in accordance 
+with their specific distribution policies or via "fair use" for academic purposes.
 
-The source code (including HTML, CSS, and JavaScript) is released under the BSD 3-Clause License:
+Source code.
 
-BSD 3-Clause License
+The underlying source code used to build and style this website 
+(including HTML, CSS, and JavaScript) is released under the BSD 3-Clause License.
+You are free to redistribute and use this code provided the license conditions are met.
 
-Copyright (c) 2021-2025, Daniel Hernangómez Pérez
+BSD 3-Clause License.
+
+Copyright (c) 2021-2026, Daniel Hernangómez Pérez
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -39,4 +47,12 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+Privacy & data.
+
 This website does not collect personal data or use cookies.
+
+Disclaimer
+
+The information on this website is provided "as is" for informational purposes only. 
+While it strives for accuracy, there are no warranties regarding the completeness or 
+reliability of the content.
