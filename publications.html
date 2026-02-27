@@ -4,12 +4,38 @@
         <meta charset="utf-8">
         <meta name="author" content="Daniel Hernang&#243;mez P&#233;rez">
         <meta name="description" content="Personal webpage of physicist Dr. Daniel Hernang&#243;mez P&#233;rez">
-        <meta name="keywords" content="Physics, physique, Physik, Regensburg, Quantum Hall Effects, effet Hall quantique, Molecular Electronics, Computational Condensed Matter Theory, Multifractality, Chalker-Coddington, Disorder, d&#233;sordre, Weizmann, Molecular Chemistry, Materials, topology, defects, transport, transition-metal dichalcogenides">
+        <!--meta name="keywords" content="Physics, physique, Physik, Regensburg, Quantum Hall Effects, effet Hall quantique, Molecular Electronics, Computational Condensed Matter Theory, Multifractality, Chalker-Coddington, Disorder, d&#233;sordre, Weizmann, Molecular Chemistry, Materials, topology, defects, transport, transition-metal dichalcogenides"-->
         <meta name="robots" content="index, follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
         <link rel="icon" href="img/favicon_2.png" type="image/x-icon">
-        <title>Daniel Hernang&oacute;mez P&eacute;rez</title>
+        <link rel="canonical" href="https://danielhernangomez.github.io/publications.html">
+        <title>Daniel Hernang&oacute;mez P&eacute;rez | Gipuzkoa Fellow at CIC nanoGUNE</title>
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Publications - Daniel Hernangómez Pérez",
+        "description": "Scientific publications of Daniel Hernangómez Pérez, including journal articles, arXiv preprints, and conference proceedings",
+        "url": "https://danielhernangomez.github.io/publications.html",
+    	"author": {
+        		"@type": "Person",
+        		"name": "Daniel Hernangómez Pérez",
+        		"url": "https://danielhernangomez.github.io/"
+   					},
+		"about": [
+        	{"@type": "Thing", "name": "Quantum Transport"},
+        	{"@type": "Thing", "name": "Condensed Matter Physics"},
+        	{"@type": "Thing", "name": "Computational Condensed Matter Physics"},
+        	{"@type": "Thing", "name": "Excitons"},
+        	{"@type": "Thing", "name": "Magneto-optics"},
+        	{"@type": "Thing", "name": "Ab initio Methods"},
+        	{"@type": "Thing", "name": "Phototransport"},
+        	{"@type": "Thing", "name": "Quantum Hall Effects"},
+        	{"@type": "Thing", "name": "Quantum Matter"},
+   			 ]
+        }
+        </script>
     </head>
     <body>
 	<div id="page">
@@ -93,9 +119,15 @@
 			 Nano Lett. (accepted)
              <br>
 			<font size="-1">
-			Abstract | BibTeX | 
+			<button onclick="showFunction('p29-abs')" class="show-button">Abstract</button> |  
+		     BibTeX | 
             <a href="https://pubs.acs.org/doi/10.1021/acs.nanolett.5c06310" target="_blank">Link</a> | 
-            Download
+            Download | Download SI
+				<div id="p29-abs" style="display:none">
+	                <p class="abstract">
+	                Grain boundaries (GBs) naturally form in and dominate the physical properties of polycrystals. However, the associated atomic reconstruction and magnetism have been scarcely studied in vdW magnets. Here, we systematically investigate the thermodynamically stable GBs in magnetically frustrated Ni-dihalides, where the reconstructed atomic configurations not only give rise to dangling bounds that suppress the local magnetic moment at the GBs but also induce strongly antiferromagnetic coupled four-coordinate Ni atoms, leading to two segmented helical domains that are antiferromagnetically aligned. Moreover, the defective energy can stabilize ultrasmall metastable skyrmions/antiskyrmions (&sim;1.4 nm) in NiCl<sub>2</sub> and NiBr<sub>2</sub>. They are pinned at the GB and remain stable even when B<sub>z</sub> &#62; 18T. Additionally, lower magnetic fields can also nucleate nanometer-sized skyrmions/antiskyrmions within the domain regions, which can move along the GB direction under a spin-transfer-torque effective field. These results provide a detailed description of magnetism in vdW GBs and provide a new strategy to eliminate the skyrmion Hall effect.
+                    </p>
+                </div>
 			</font>
         </li>
 		<!-- -->
@@ -1229,7 +1261,7 @@
             document.write(day + "/" + month + "/" + year);
 	    </script>
 	<span class="legal">
-            <a href="LICENSE.txt" target="_blank">Legal Notice</a> 
+            <a href="legal_notice.html" target="_blank">Legal Notice</a>
         </span>
 	</small> 
 	</footer>
