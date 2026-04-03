@@ -21,21 +21,28 @@
   <url>
     <loc>https://danielhernangomez.github.io/news_archive.html</loc>
   </url>
+  <url>
+    <loc>https://danielhernangomez.github.io/legal_notice.html</loc>
+  </url>
   <!-- Add PDFs below -->
   <url>
     <loc>https://danielhernangomez.github.io/downloads/papers/2013/Hernangomez-Perez-2013-LDoS_Rashba_integer_quantum_Hall.pdf</loc>
     <lastmod>2013-12-20</lastmod>
   </url>
   <url>
-    <loc>https://danielhernangomez.github.io/downloads/papers/2014/p2.pdf</loc>
+    <loc>https://danielhernangomez.github.io/downloads/papers/2014/Hernangomez-Perez-2014-Transport_Rashba_integer_quantum_Hall.pdf</loc>
     <lastmod>2014-04-18</lastmod>
   </url>
   <url>
-    <loc>https://danielhernangomez.github.io/downloads/papers/2016/p3.pdf</loc>
+    <loc>https://danielhernangomez.github.io/downloads/papers/2016/Champel-2016-Topological_entanglement_quantum_Hall.pdf</loc>
     <lastmod>2016-02-05</lastmod>
   </url>
   <url>
-    <loc>https://danielhernangomez.github.io/downloads/papers/2016/p4.pdf</loc>
+    <loc>https://danielhernangomez.github.io/downloads/papers/2016/Li-2016-Transformation_optics_plasmon_exciton_nanocavities.pdf</loc>
+    <lastmod>2016-08-30</lastmod>
+  </url>
+  <url>
+    <loc>https://danielhernangomez.github.io/downloads/papers/2016/Li-2016-Transformation_optics_plasmon_exciton_nanocavities-SI.pdf</loc>
     <lastmod>2016-08-30</lastmod>
   </url>
   <url>
