@@ -153,13 +153,14 @@ footer a:visited {
 .column1of2 {
 	float: left;
 	width: 70%; /* Give a bit more room for the photo */
-	margin-right: 8% /* Push the photo away from text */
+	margin-right: 8%; /* Push the photo away from text */
 	}
 
 .column2of2 {
 	float: left;
 	width: 20%;
 	margin-top: 1%;
+	margin-right: 2%;
 	}
 
 /* Photo for index webpage */
@@ -183,7 +184,7 @@ footer a:visited {
     vertical-align: top;
     }
 
-/* Style for button in publication list, shows abstract and bibTeX on-click */
+/* Style for button in publication list, shows abstract and BibTeX on-click */
 
 .show-button {
     font-family: "Raleway", Geneva, Verdana;
