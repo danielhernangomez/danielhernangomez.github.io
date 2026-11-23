@@ -1,0 +1,29 @@
+# Daniel Hernangómez-Pérez
+
+> Theoretical condensed matter physicist; Ikerbasque Research Fellow in the Theory group at CIC nanoGUNE (Donostia-San Sebastián, Spain). Works many-body light-matter coupling (excitons) in low-dimensional materials and molecules, ab initio methods (DFT, GW, BSE) for quantum transport, quantum Hall effects and Anderson transitions, magneto-optics and phototransport, and quantum computation for materials science.
+
+Also written Daniel Hernangómez Pérez or D. Hernangómez-Pérez. Previously at the Weizmann Institute of Science (with S. Refaely-Abramson) and Universität Regensburg (with F. Evers); PhD at LPMMC Grenoble (advisor T. Champel), undergraduate at Universidad Autónoma de Madrid. Co-developer of the AITRANSS transport package and a contributor to FHI-aims. ORCID 0000-0002-4277-0236.
+
+## Profile
+
+- [Home](https://danielhernangomez.github.io/index.html): Biography, affiliations, identifiers and contact
+- [Research](https://danielhernangomez.github.io/research.html): Research lines and funding
+- [Publications](https://danielhernangomez.github.io/publications.html): Full list of articles with abstracts and BibTeX
+- [Team](https://danielhernangomez.github.io/team.html): Current and former group members
+- [Teaching](https://danielhernangomez.github.io/teaching.html): Courses and student projects
+
+## Selected publications
+
+- [Many-body quantum chaos in excitonic spectra from first principles](https://arxiv.org/abs/2607.03294): arXiv preprint (2026). Shows that exciton spectra from GW-BSE calculations of WS2-graphene follow random-matrix statistics, with disorder driving the system from regular to fully chaotic behavior.
+- [Generalized many-body exciton g-factors: magnetic hybridization and non-monotonic Rydberg series in monolayer WSe2](https://doi.org/10.1103/c5y7-w9tk): Phys. Rev. B 112, L241404 (2025). A first-principles theory of how excitons in 2D semiconductors respond to magnetic fields.
+- [Reduced absorption due to defect-localized interlayer excitons in transition metal dichalcogenide-graphene heterostructures](https://doi.org/10.1021/acs.nanolett.3c01182): Nano Lett. (2023). How atomic defects create interlayer excitons that change the optical absorption of 2D heterostructures.
+- [Charge quenching at defect states in transition metal dichalcogenide-graphene van der Waals heterobilayers](https://doi.org/10.1103/PhysRevB.107.075419): Phys. Rev. B 107, 075419 (2023), Editors' Suggestion. Combines ab initio, model Hamiltonian and quantum master equation methods to compute how fast chalcogen vacancies in WS2- and MoS2-graphene heterobilayers capture and lose an extra electron.
+- [Atomically resolved single-molecule triplet quenching](https://doi.org/10.1126/science.abh1155): Science 373, 452 (2021). First measurement of the triplet-state lifetime of a single pentacene molecule with atomic resolution, showing how nearby oxygen molecules shorten it.
+- [Mechanically-tunable quantum interference in ferrocene-based molecular junctions](https://doi.org/10.1021/acs.nanolett.0c01956): Nano Lett. 20, 6381 (2020). Ab initio and experimental study of controlling single-molecule conductance through the rotation of ferrocene rings.
+- [Spectral properties and local density of states of disordered quantum Hall systems with Rashba spin-orbit coupling](https://doi.org/10.1103/PhysRevB.88.245433): Phys. Rev. B 88, 245433 (2013). Green's function theory of the local density of states in disordered 2D electron gases in the quantum Hall regime, including Rashba spin-orbit and Zeeman coupling.
+
+## Optional
+
+- [Google Scholar](https://scholar.google.com/citations?user=MuWtE08AAAAJ): Citation profile
+- [ORCID](https://orcid.org/0000-0002-4277-0236): Persistent researcher identifier
+- [CIC nanoGUNE profile](https://www.nanogune.eu/en/nanogune/people/daniel-hernangomez-perez): Institutional page
